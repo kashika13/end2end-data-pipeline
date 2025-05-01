@@ -1,9 +1,0 @@
-[ 2025-05-01 01:48:19,526 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-[ 2025-05-01 01:48:19,528 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
-[ 2025-05-01 01:48:19,718 ] 22 root - INFO - Starting data pipeline
-[ 2025-05-01 01:48:19,718 ] 11 root - INFO - Loading call logs data from ./artifacts\call_logs.csv
-[ 2025-05-01 01:48:19,725 ] 11 root - INFO - Loading agent roster data from ./artifacts\agent_roster.csv
-[ 2025-05-01 01:48:19,727 ] 11 root - INFO - Loading disposition summary data from ./artifacts\disposition_summary.csv
-[ 2025-05-01 01:48:19,729 ] 10 root - INFO - Merging datasets
-[ 2025-05-01 01:48:19,736 ] 53 root - INFO - Calculating agent performance metrics
-[ 2025-05-01 01:48:19,738 ] 43 root - ERROR - Pipeline failed: "Column(s) ['presence'] do not exist"

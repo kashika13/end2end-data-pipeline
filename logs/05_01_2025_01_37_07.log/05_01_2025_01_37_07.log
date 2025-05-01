@@ -1,6 +1,0 @@
-[ 2025-05-01 01:37:08,103 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
-[ 2025-05-01 01:37:08,103 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
-[ 2025-05-01 01:37:08,296 ] 22 root - INFO - Starting data pipeline
-[ 2025-05-01 01:37:08,296 ] 11 root - INFO - Loading call logs data from D:\Projects\DPDZero Data Analyst Assignment\artifacts\call_logs.csv
-[ 2025-05-01 01:37:08,335 ] 11 root - INFO - Loading agent roster data from D:\Projects\DPDZero Data Analyst Assignment\artifacts\agent_roster.csv
-[ 2025-05-01 01:37:08,345 ] 43 root - ERROR - Pipeline failed: Error occured in python scipt name [D:\Projects\DPDZero Data Analyst Assignment\collection_pipeline\data_ingestion.py] line number [34] error message ['call_date']
