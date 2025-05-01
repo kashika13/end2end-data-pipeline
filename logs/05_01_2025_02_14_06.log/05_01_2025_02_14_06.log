@@ -1,0 +1,11 @@
+[ 2025-05-01 02:14:06,322 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-05-01 02:14:06,322 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-05-01 02:14:06,512 ] 16 root - INFO - Starting data pipeline
+[ 2025-05-01 02:14:06,512 ] 11 root - INFO - Loading call logs data from D:\Projects\DPDZero_data_ops_assignment\call_logs.csv
+[ 2025-05-01 02:14:06,523 ] 11 root - INFO - Loading agent roster data from D:\Projects\DPDZero_data_ops_assignment\agent_roster.csv
+[ 2025-05-01 02:14:06,524 ] 11 root - INFO - Loading disposition summary data from D:\Projects\DPDZero_data_ops_assignment\disposition_summary.csv
+[ 2025-05-01 02:14:06,537 ] 10 root - INFO - Merging datasets
+[ 2025-05-01 02:14:06,549 ] 53 root - INFO - Calculating agent performance metrics
+[ 2025-05-01 02:14:06,552 ] 12 root - INFO - Performance summary saved to ./artifacts\agent_performance_summary.csv
+[ 2025-05-01 02:14:06,552 ] 21 root - INFO - Generating Report
+[ 2025-05-01 02:14:06,552 ] 33 root - INFO - Pipeline completed successfully

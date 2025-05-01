@@ -1,0 +1,5 @@
+[ 2025-05-01 09:20:33,262 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-05-01 09:20:33,262 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-05-01 09:20:33,516 ] 16 root - INFO - Starting data pipeline
+[ 2025-05-01 09:20:33,516 ] 14 root - INFO - Loading call logs data from D:\Projects\DPDZero_data_ops_assignment\call_logs.csv
+[ 2025-05-01 09:20:33,547 ] 36 root - ERROR - Pipeline failed: Error occured in python scipt name [D:\Projects\DPDZero Data Analyst Assignment\collection_pipeline\data_ingestion.py] line number [40] error message ['str' object has no attribute 'to_csv']

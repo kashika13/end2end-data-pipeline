@@ -1,0 +1,8 @@
+[ 2025-05-01 01:53:07,787 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-05-01 01:53:07,787 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-05-01 01:53:07,991 ] 22 root - INFO - Starting data pipeline
+[ 2025-05-01 01:53:07,991 ] 11 root - INFO - Loading call logs data from ./artifacts\call_logs.csv
+[ 2025-05-01 01:53:08,004 ] 11 root - INFO - Loading agent roster data from ./artifacts\agent_roster.csv
+[ 2025-05-01 01:53:08,004 ] 11 root - INFO - Loading disposition summary data from ./artifacts\disposition_summary.csv
+[ 2025-05-01 01:53:08,004 ] 10 root - INFO - Merging datasets
+[ 2025-05-01 01:53:08,016 ] 53 root - INFO - Calculating agent performance metrics

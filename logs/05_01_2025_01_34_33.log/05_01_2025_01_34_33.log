@@ -1,0 +1,5 @@
+[ 2025-05-01 01:34:34,132 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-05-01 01:34:34,132 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-05-01 01:34:34,440 ] 22 root - INFO - Starting data pipeline
+[ 2025-05-01 01:34:34,440 ] 11 root - INFO - Loading call logs data from ../artifacts\call_logs.csv
+[ 2025-05-01 01:34:34,442 ] 43 root - ERROR - Pipeline failed: Error occured in python scipt name [D:\Projects\DPDZero Data Analyst Assignment\collection_pipeline\data_ingestion.py] line number [12] error message [[Errno 2] No such file or directory: '../artifacts\\call_logs.csv']

@@ -1,0 +1,13 @@
+[ 2025-05-01 09:33:29,502 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-05-01 09:33:29,502 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-05-01 09:33:29,723 ] 16 root - INFO - Starting data pipeline
+[ 2025-05-01 09:33:29,723 ] 14 root - INFO - Loading call logs data from D:\Projects\DPDZero_data_ops_assignment\call_logs.csv
+[ 2025-05-01 09:33:29,732 ] 43 root - INFO - Saved call logs data to ./artifacts\call_logs.csv
+[ 2025-05-01 09:33:29,732 ] 14 root - INFO - Loading agent roster data from D:\Projects\DPDZero_data_ops_assignment\agent_roster.csv
+[ 2025-05-01 09:33:29,735 ] 43 root - INFO - Saved agent roster data to ./artifacts\agent_roster.csv
+[ 2025-05-01 09:33:29,735 ] 14 root - INFO - Loading disposition summary data from D:\Projects\DPDZero_data_ops_assignment\disposition_summary.csv
+[ 2025-05-01 09:33:29,740 ] 43 root - INFO - Saved disposition summary data to ./artifacts\disposition_summary.csv
+[ 2025-05-01 09:33:29,740 ] 10 root - INFO - Merging datasets
+[ 2025-05-01 09:33:29,742 ] 53 root - INFO - Calculating agent performance metrics
+[ 2025-05-01 09:33:29,752 ] 14 root - ERROR - Failed to save performance report: [Errno 13] Permission denied: 'D:\\Projects\\DPDZero Data Analyst Assignment'
+[ 2025-05-01 09:33:29,752 ] 36 root - ERROR - Pipeline failed: Error occured in python scipt name [D:\Projects\DPDZero Data Analyst Assignment\collection_pipeline\report_generation.py] line number [11] error message [[Errno 13] Permission denied: 'D:\\Projects\\DPDZero Data Analyst Assignment']
